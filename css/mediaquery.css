@@ -1,0 +1,105 @@
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 15px 5%;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  #hero-section .intro,
+  #hero-section .headshot {
+    flex: 1 1 auto;
+    padding: 10px;
+  }
+
+  .japz {
+    font-size: 3em;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px 3%;
+    flex-direction: column;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  button {
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+
+  #hero-section {
+    padding: 10px;
+    text-align: center;
+  }
+
+  #hero-section .intro,
+  #hero-section .headshot {
+    padding: 10px;
+  }
+
+  .japz {
+    font-size: 2em;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .project-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+
+  #hero-section {
+    padding: 10px 5px;
+  }
+
+  #hero-section .intro,
+  #hero-section .headshot {
+    flex-direction: column;
+  }
+
+  .headshot img {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  .japz {
+    font-size: 1.5em;
+  }
+}
