@@ -103,3 +103,36 @@
     font-size: 1.5em;
   }
 }
+
+@media screen and (max-width: 375px) {
+  header {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+
+  #hero-section {
+    padding: 10px 5px;
+  }
+
+  #hero-section .intro,
+  #hero-section .headshot {
+    flex-direction: column;
+  }
+
+  .headshot img {
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  .japz {
+    font-size: 1.5em;
+  }
+}
