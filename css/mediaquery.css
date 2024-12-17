@@ -22,7 +22,6 @@
   .japz {
     font-size: 3em;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -67,7 +66,6 @@
     width: 90%;
     margin: 0 auto;
   }
-
 }
 
 @media screen and (max-width: 480px) {
