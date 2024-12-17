@@ -16,8 +16,7 @@
 
   #hero-section .intro,
   #hero-section .headshot {
-    flex: 1 1 auto;
-    padding: 10px;
+    flex-direction: row;
   }
 
   .japz {

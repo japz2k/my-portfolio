@@ -190,22 +190,23 @@ h1, .para {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
-    width: 250px;
+    width: 190px;
+    height: 230px;
     cursor: pointer;
     padding: 20px;
     margin-bottom: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: left;
+    text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skills-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px #15c7ff;
 }
 
 .skills-card img {
-    width: 100%;
+    width: 150px;
     border-radius: 8px;
     margin-bottom: 15px;
 }
@@ -215,12 +216,6 @@ h1, .para {
     color: #333;
     margin-bottom: 10px;
     text-align: center;
-}
-
-.skill-card p {
-    font-size: 1rem;
-    color: #555;
-    line-height: 1.5;
 }
 /* Projects Section */
 
@@ -257,7 +252,7 @@ h1, .para {
 
 .project-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px #15c7ff;
 }
 
 .project-card img {
