@@ -16,7 +16,7 @@
 
   #hero-section .intro,
   #hero-section .headshot {
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .japz {
